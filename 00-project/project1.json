@@ -1,0 +1,25 @@
+{
+  "description": "project description",
+  "version" : "1.0-rc",
+  "authors": ["Jakub Gutkowski"],
+  "compilationOptions": {
+    "warningsAsErrors": true
+  },
+  "commands": {
+    "web": "",
+    "run": ""
+  },
+  "scripts": {
+    "prebuild": "echo before building",
+    "postbuild": "echo after building",
+    "prepack": "echo before packing",
+    "postpack": "echo after packing",
+    "prerestore": "echo before restoring packages",
+    "postrestore": "echo after restoring packages"
+  },
+  "dependencies": {},
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": {}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+  	// project depedencies
+  },
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        // depedencies
+        // as nuget
+      },
+      "frameworkAssemblies": {
+      	// gac depedencies
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        // coreCLR depedencies
+        // like System.Console
+      }
+    }
+  }
+}
