@@ -1,0 +1,2 @@
+docker build -t web .
+docker run -dt -p 4888:5004 web

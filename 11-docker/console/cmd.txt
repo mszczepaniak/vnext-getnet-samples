@@ -1,0 +1,2 @@
+docker build -t console .
+docker run -dt -p 4888:5004 console
